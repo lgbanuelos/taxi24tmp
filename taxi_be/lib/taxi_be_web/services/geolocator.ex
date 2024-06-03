@@ -3,7 +3,7 @@ defmodule TaxiBeWeb.Geolocator do
   @directionsURL "https://api.mapbox.com/directions/v5/mapbox/driving/"
   @distanceMatrixURL "https://api.mapbox.com/directions-matrix/v1/mapbox/driving/"
 
-  @token "pk.eyJ1IjoibGdiYW51ZWxvcyIsImEiOiJjanVlZm02ZmEwMWJ0M3lwZG43aGh5dHkwIn0.bkjOWEzJQMkfuoCv82x-Og"
+  @token "pk.eyJ1IjoibGdiYW51ZWxvcyIsImEiOiJjbHdxdDFoa3cwNTJrMmtxNndpMnMxNzk5In0.v9tER9kbYqqcQFEUpuncMQ"
 
   def geocode(address) do
     case HTTPoison.get(
